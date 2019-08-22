@@ -2,6 +2,7 @@ const year = new Date().getFullYear();
 const ourDate = new Date(year, 9, -11, 17).getTime();
 
 
+
 let timer = setInterval(function() {
 
   const today = new Date().getTime();
